@@ -2,7 +2,17 @@
 	"folders": [
 		{
 			"path": ".."
+		},
+		{
+			"path": "C:/Users/talen/Desktop/kpay-may-website-revamp.webflow"
 		}
 	],
-	"settings": {}
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "bableStudy",
+		"liveServer.settings.port": 5501,
+		"liveServer.settings.mount": [
+			[ "react", "./node_modules/react" ],
+			[ "react-dom", "./node_modules/react-dom" ],
+		]
+	}
 }

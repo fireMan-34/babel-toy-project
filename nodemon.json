@@ -1,6 +1,8 @@
 {
   "watch": [
-    "package.json"
+    "package.json",
+    "babel.config.json",
+    "./plugins/babel"
   ],
   "exec": "yarn build"
 }

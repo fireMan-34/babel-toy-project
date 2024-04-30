@@ -13,7 +13,7 @@
         },
         "useBuiltIns": "usage",
         "corejs": "3.65",
-        "modules": "auto"
+        "modules": false
       }
     ],
     [
@@ -22,5 +22,8 @@
   ],
   "env": {
     
-  }
+  },
+  "plugins": [
+    "./plugins/babel/transformPath.js"
+  ]
 }
