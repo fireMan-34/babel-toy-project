@@ -1,5 +1,7 @@
 
 /**
+ * https://github.com/jamiebuilds/babel-handbook/blob/master/translations/zh-Hans/plugin-handbook.md#toc-asts
+ * https://github.com/babel/babel/issues/10637
  * 简易转换 babel 导入路径插件
  * @param {import('@babel/core')} babel 
  * @returns {import('@babel/core'.PluginObj)}
