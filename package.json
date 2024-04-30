@@ -1,0 +1,24 @@
+{
+  "name": "bable-study",
+  "private": true,
+  "version": "1.0.0",
+  "description": "study babel and more",
+  "main": "index.js",
+  "author": "fireMan34",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.24.5",
+    "@babel/core": "^7.24.5",
+    "@babel/preset-env": "^7.24.5",
+    "@babel/preset-react": "^7.24.1",
+    "nodemon": "^3.1.0"
+  },
+  "scripts": {
+    "build": "babel src --out-dir dist --watch",
+    "build:config": "nodemon"
+  }
+}
